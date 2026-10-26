@@ -20,4 +20,8 @@ public class TravelPlanner {
         }
         return strategy.calculateTime(distance);
     }
+
+    public String getTransport(){
+        return strategy.getTransport();
+    }
 }
